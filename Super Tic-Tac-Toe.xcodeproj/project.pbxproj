@@ -19,6 +19,14 @@
 		6033AD161799B25E0028E2C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6033ACFE1799B25E0028E2C1 /* UIKit.framework */; };
 		6033AD1E1799B25E0028E2C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6033AD1C1799B25E0028E2C1 /* InfoPlist.strings */; };
 		6033AD201799B25E0028E2C1 /* Super_Tic_Tac_ToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6033AD1F1799B25E0028E2C1 /* Super_Tic_Tac_ToeTests.m */; };
+		6033AD2C1799B3010028E2C1 /* orange_seashell.png in Resources */ = {isa = PBXBuildFile; fileRef = 6033AD2B1799B3010028E2C1 /* orange_seashell.png */; };
+		6033AD2E1799B8D80028E2C1 /* starfish.png in Resources */ = {isa = PBXBuildFile; fileRef = 6033AD2D1799B8D80028E2C1 /* starfish.png */; };
+		6033AD311799BA320028E2C1 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6033AD301799B92C0028E2C1 /* GameViewController.m */; };
+		6033AD351799BB420028E2C1 /* SmallSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6033AD341799BB240028E2C1 /* SmallSquareView.m */; };
+		6033AD381799D7C10028E2C1 /* SmallGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6033AD371799D7C10028E2C1 /* SmallGridView.m */; };
+		6033AD3E1799E5290028E2C1 /* TicTacToeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6033AD3D1799E5290028E2C1 /* TicTacToeModel.m */; };
+		6033AD411799E95A0028E2C1 /* LargeGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6033AD401799E95A0028E2C1 /* LargeGridView.m */; };
+		6033AD44179D8DC60028E2C1 /* SuperTicTacToeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6033AD43179D8DC60028E2C1 /* SuperTicTacToeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,20 @@
 		6033AD1B1799B25E0028E2C1 /* Super Tic-Tac-ToeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Super Tic-Tac-ToeTests-Info.plist"; sourceTree = "<group>"; };
 		6033AD1D1799B25E0028E2C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6033AD1F1799B25E0028E2C1 /* Super_Tic_Tac_ToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Super_Tic_Tac_ToeTests.m; sourceTree = "<group>"; };
+		6033AD2B1799B3010028E2C1 /* orange_seashell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange_seashell.png; path = ../../../../Desktop/orange_seashell.png; sourceTree = "<group>"; };
+		6033AD2D1799B8D80028E2C1 /* starfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = starfish.png; path = ../../../../Desktop/starfish.png; sourceTree = "<group>"; };
+		6033AD2F1799B92C0028E2C1 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		6033AD301799B92C0028E2C1 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
+		6033AD331799BB240028E2C1 /* SmallSquareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SmallSquareView.h; path = ../SmallSquareView.h; sourceTree = "<group>"; };
+		6033AD341799BB240028E2C1 /* SmallSquareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SmallSquareView.m; path = ../SmallSquareView.m; sourceTree = "<group>"; };
+		6033AD361799D7C10028E2C1 /* SmallGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallGridView.h; sourceTree = "<group>"; };
+		6033AD371799D7C10028E2C1 /* SmallGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallGridView.m; sourceTree = "<group>"; };
+		6033AD3C1799E5290028E2C1 /* TicTacToeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicTacToeModel.h; path = ../TicTacToeModel.h; sourceTree = "<group>"; };
+		6033AD3D1799E5290028E2C1 /* TicTacToeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicTacToeModel.m; path = ../TicTacToeModel.m; sourceTree = "<group>"; };
+		6033AD3F1799E95A0028E2C1 /* LargeGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargeGridView.h; sourceTree = "<group>"; };
+		6033AD401799E95A0028E2C1 /* LargeGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargeGridView.m; sourceTree = "<group>"; };
+		6033AD42179D8DC60028E2C1 /* SuperTicTacToeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperTicTacToeModel.h; sourceTree = "<group>"; };
+		6033AD43179D8DC60028E2C1 /* SuperTicTacToeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperTicTacToeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +129,18 @@
 		6033AD001799B25E0028E2C1 /* Super Tic-Tac-Toe */ = {
 			isa = PBXGroup;
 			children = (
+				6033AD3C1799E5290028E2C1 /* TicTacToeModel.h */,
+				6033AD3D1799E5290028E2C1 /* TicTacToeModel.m */,
+				6033AD42179D8DC60028E2C1 /* SuperTicTacToeModel.h */,
+				6033AD43179D8DC60028E2C1 /* SuperTicTacToeModel.m */,
+				6033AD3F1799E95A0028E2C1 /* LargeGridView.h */,
+				6033AD401799E95A0028E2C1 /* LargeGridView.m */,
+				6033AD331799BB240028E2C1 /* SmallSquareView.h */,
+				6033AD341799BB240028E2C1 /* SmallSquareView.m */,
+				6033AD361799D7C10028E2C1 /* SmallGridView.h */,
+				6033AD371799D7C10028E2C1 /* SmallGridView.m */,
+				6033AD2F1799B92C0028E2C1 /* GameViewController.h */,
+				6033AD301799B92C0028E2C1 /* GameViewController.m */,
 				6033AD091799B25E0028E2C1 /* AppDelegate.h */,
 				6033AD0A1799B25E0028E2C1 /* AppDelegate.m */,
 				6033AD0C1799B25E0028E2C1 /* Images.xcassets */,
@@ -118,6 +152,8 @@
 		6033AD011799B25E0028E2C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6033AD2D1799B8D80028E2C1 /* starfish.png */,
+				6033AD2B1799B3010028E2C1 /* orange_seashell.png */,
 				6033AD021799B25E0028E2C1 /* Super Tic-Tac-Toe-Info.plist */,
 				6033AD031799B25E0028E2C1 /* InfoPlist.strings */,
 				6033AD061799B25E0028E2C1 /* main.m */,
@@ -219,8 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6033AD2C1799B3010028E2C1 /* orange_seashell.png in Resources */,
 				6033AD051799B25E0028E2C1 /* InfoPlist.strings in Resources */,
 				6033AD0D1799B25E0028E2C1 /* Images.xcassets in Resources */,
+				6033AD2E1799B8D80028E2C1 /* starfish.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6033AD44179D8DC60028E2C1 /* SuperTicTacToeModel.m in Sources */,
 				6033AD0B1799B25E0028E2C1 /* AppDelegate.m in Sources */,
+				6033AD411799E95A0028E2C1 /* LargeGridView.m in Sources */,
+				6033AD351799BB420028E2C1 /* SmallSquareView.m in Sources */,
+				6033AD311799BA320028E2C1 /* GameViewController.m in Sources */,
+				6033AD381799D7C10028E2C1 /* SmallGridView.m in Sources */,
+				6033AD3E1799E5290028E2C1 /* TicTacToeModel.m in Sources */,
 				6033AD071799B25E0028E2C1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +481,7 @@
 				6033AD251799B25E0028E2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6033AD261799B25E0028E2C1 /* Build configuration list for PBXNativeTarget "Super Tic-Tac-ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +490,7 @@
 				6033AD281799B25E0028E2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
